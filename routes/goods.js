@@ -38,6 +38,8 @@ const goods = [
   },
 ];
 
+
+
 //상품 목록 조회 API
 router.get("/goods", (req, res) => {
   res.status(200).json({ goods })

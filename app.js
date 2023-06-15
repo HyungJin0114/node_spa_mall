@@ -43,6 +43,8 @@ app.use("/api", [goodsRouter, cartsRouter]);
 //API경로 추가해 라우터로 가는 방법
 // app.use("/api", goodsRouter);
 
+
+
 app.listen(port, () => {
     console.log(port, '포트로 서버가 열렸어요!');
 });
